@@ -8,6 +8,6 @@ public class AboutController {
 
     @GetMapping("/about")
     public String aboutPage() {
-        return "about"; // Передає ім'я шаблону (about.html) для відображення
+        return "about";
     }
 }
