@@ -20,7 +20,7 @@ public class HelloController {
         return "contacts";
     }
 
-    @GetMapping("/myPage")  // Added mapping
+    @GetMapping("/myPage") 
     public String myPage() {
         return "myPage";
     }
